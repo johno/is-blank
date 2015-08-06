@@ -1,6 +1,4 @@
-# Is Blank
-
-[![Build Status](https://travis-ci.org/johnotander/is-blank.svg?branch=master)](https://travis-ci.org/johnotander/is-blank)
+# is-blank [![Build Status](https://travis-ci.org/johnotander/is-blank.svg?branch=master)](https://travis-ci.org/johnotander/is-blank)
 
 Check whether a value is empty or blank.
 
