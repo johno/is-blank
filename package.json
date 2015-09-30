@@ -32,6 +32,6 @@
   },
   "dependencies": {
     "is-empty": "0.0.1",
-    "is-whitespace": "^0.2.0"
+    "is-whitespace": "^0.3.0"
   }
 }
