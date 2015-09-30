@@ -1,6 +1,6 @@
 {
   "name": "is-blank",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Check whether a value is empty or blank, includes string whitespace support.",
   "main": "index.js",
   "directories": {
