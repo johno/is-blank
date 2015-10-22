@@ -2,12 +2,13 @@
   "name": "is-blank",
   "version": "1.0.0",
   "description": "Check whether a value is empty or blank, includes string whitespace support.",
+  "author": "John Otander <johnotander@gmail.com> (http://johnotander.com/)",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
+  "files": [
+    "index.js"
+  ],
   "scripts": {
-    "test": "mocha test"
+    "test": "ava"
   },
   "repository": {
     "type": "git",
@@ -21,14 +22,13 @@
     "array",
     "empty"
   ],
-  "author": "John Otander <johnotander@gmail.com> (http://johnotander.com/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/johnotander/is-blank/issues"
   },
   "homepage": "https://github.com/johnotander/is-blank",
   "devDependencies": {
-    "mocha": "^2.0.1"
+    "ava": "*"
   },
   "dependencies": {
     "is-empty": "0.0.1",
