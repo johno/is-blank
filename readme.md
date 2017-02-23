@@ -5,13 +5,13 @@ Check whether a value is empty or blank.
 ## Installation
 
 ```
-npm i --save is-blank
+npm i -S is-blank
 ```
 
 ## Usage
 
-```javascript
-var isBlank = require('is-blank')
+```js
+const isBlank = require('is-blank')
 
 isBlank([])              // => true
 isBlank({})              // => true
@@ -30,10 +30,11 @@ isBlank(42)              // => false
 isBlank(function(a,b){}) // => false
 ```
 
-## Acknowledgements
+## Related
 
-Extends [is-empty](https://github.com/ianstormtaylor/is-empty) and
-[is-whitespace](https://github.com/jonschlinkert/is-whitespace).
+- [is-empty](https://github.com/ianstormtaylor/is-empty)
+- [is-whitespace](https://github.com/jonschlinkert/is-whitespace)
+- [is-present](https://github.com/johnotander/is-present)
 
 ## License
 

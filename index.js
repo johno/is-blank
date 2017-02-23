@@ -1,14 +1,6 @@
-var isEmpty = require('is-empty')
-var isWhitespace = require('is-whitespace')
+const isEmpty = require('is-empty')
+const isWhitespace = require('is-whitespace')
 
-module.exports = function isBlank (object) {
-  if (typeof object === 'boolean') {
-    return false
-  }
+const isString = object => typeof object === 'string'
 
-  if (typeof object === 'string' && object.length) {
-    return isWhitespace(object)
-  } else {
-    return isEmpty(object)
-  }
-}
+module.exports = object => isString(object) && object.length ? isWhitespace(object) : isEmpty(object)
