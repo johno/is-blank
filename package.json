@@ -31,7 +31,7 @@
     "ava": "*"
   },
   "dependencies": {
-    "is-empty": "0.0.1",
+    "is-empty": "^1.0.0",
     "is-whitespace": "^0.3.0"
   }
 }
