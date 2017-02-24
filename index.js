@@ -1,6 +1,10 @@
-const isEmpty = require('is-empty')
-const isWhitespace = require('is-whitespace')
+var isEmpty = require('is-empty')
+var isWhitespace = require('is-whitespace')
 
-const isString = object => typeof object === 'string'
+function isString (object) {
+  return typeof object === 'string'
+}
 
-module.exports = object => isString(object) && object.length ? isWhitespace(object) : isEmpty(object)
+module.exports = function (object) {
+  return isString(object) && object.length ? isWhitespace(object) : isEmpty(object)
+}
